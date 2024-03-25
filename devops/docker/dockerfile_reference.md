@@ -24,3 +24,12 @@ da imagem.
 ```dockerfile
 COPY <src> ... <dest>
 ```
+
+## ADD
+
+ADD copia arquivos, diretórios ou arquvivos remotos e os adiciona para o filesystem
+da imagem.
+
+```dockerfile
+ADD <src> ... <dest>
+```
