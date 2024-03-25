@@ -15,3 +15,12 @@ Configura o diretório de trabalho para qualquer instrução abaixo:
 - ADD
 
 Se o diretório não existir, ele será criado.
+
+## COPY
+
+COPY copia arquivos ou diretórios do host e os adiciona para o filesystem
+da imagem.
+
+```dockerfile
+COPY <src> ... <dest>
+```
